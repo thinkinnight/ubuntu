@@ -1,0 +1,1 @@
+This folder is totally the installation work. And this git is ubuntu, not ubuntu-install, or ubuntu-setup, so I could input more things more than that, maybe ubuntu-server or other ubuntu related topics.
