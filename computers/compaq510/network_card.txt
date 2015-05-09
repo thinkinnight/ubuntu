@@ -1,0 +1,16 @@
+while the network card (wireless) cannot work, should use the following command to make it work.
+
+# lsmod |grep "brcmsmac\|b43\|ssb\|bcma\|wl"
+
+and if there are some existed modules.
+
+# sudo rmmod xxx
+
+# sudo modprobe lib80211
+# sudo modprobe cfg80211
+
+# cd ~/Downloads/hybrid_wl/
+# sudo insmod wl.ko
+
+But how to make it work while the PC startup?
+
